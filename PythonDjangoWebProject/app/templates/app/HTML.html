@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    {% load staticfiles %}
+    <script src="{% static 'app/scripts/JavaScript.js'%}">
+        // JavaScript is included by this method
+    </script>
+    <style>
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/styles/Stylesheet.css' %}"/>
+    {{title}}
+    {{year}}
+</body>
+</html>
